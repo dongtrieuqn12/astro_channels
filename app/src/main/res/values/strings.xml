@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Astro Channels</string>
+    <string name="facebook_app_id">848958518906815</string>
+    <string name="fb_login_protocol_scheme">fb848958518906815</string>
+</resources>
