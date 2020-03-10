@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="array_of_navigation_drawer_item_title">
+        <item>CHANNELS</item>
+        <item>FAVOURITE</item>
+        <item>GUIDE</item>
+    </string-array>
+
+    <string-array
+        name="array_of_navigation_drawer_item_title_signed_in">
+        <item>CHANNELS</item>
+        <item>FAVOURITE</item>
+        <item>GUIDE</item>
+        <item>SIGNED OUT</item>
+    </string-array>
+
+    <string-array name="array_of_sorting_conditions">
+        <item>Channel number</item>
+        <item>Channel name</item>
+    </string-array>
+
+    <string-array name="array_of_sorting_conditions_signed_in">
+        <item>Channel number</item>
+        <item>Channel name</item>
+        <item>Favourites</item>
+    </string-array>
+</resources>
