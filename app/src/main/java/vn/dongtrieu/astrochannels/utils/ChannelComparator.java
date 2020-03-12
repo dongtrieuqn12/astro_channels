@@ -1,15 +1,11 @@
-package com.huynd.astrochannels.utils;
-
-import com.huynd.astrochannels.models.Channel;
+package vn.dongtrieu.astrochannels.utils;
 
 import java.util.Comparator;
 
-import static com.huynd.astrochannels.utils.ChannelComparator.SortingCondition.CHANNEL_NAME;
-import static com.huynd.astrochannels.utils.ChannelComparator.SortingCondition.CHANNEL_NUMBER;
+import vn.dongtrieu.astrochannels.models.Channel;
 
-/**
- * Created by HuyND on 9/18/2017.
- */
+import static vn.dongtrieu.astrochannels.utils.ChannelComparator.SortingCondition.CHANNEL_NAME;
+import static vn.dongtrieu.astrochannels.utils.ChannelComparator.SortingCondition.CHANNEL_NUMBER;
 
 public class ChannelComparator implements Comparator<Channel> {
     public enum SortingCondition {

@@ -1,4 +1,4 @@
 package vn.dongtrieu.astrochannels.exception;
 
-public class ChannelsTechFailureException {
+public class ChannelsTechFailureException extends IllegalArgumentException {
 }

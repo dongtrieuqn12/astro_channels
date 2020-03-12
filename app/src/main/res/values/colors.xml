@@ -3,4 +3,14 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="navigation_drawer_list_background_color">#111</color>
+
+    <color name="text_view_channel_name_text_color">#FF5500</color>
+    <color name="text_view_channel_number_text_color">#33AA11</color>
+
+    <color name="guide_channel_cell_background">#121314</color>
+    <color name="guide_time_cell_background">#191B1C</color>
+    <color name="guide_time_cell_title">#777777</color>
+    <color name="guide_time_indicator">#1B9EDF</color>
 </resources>

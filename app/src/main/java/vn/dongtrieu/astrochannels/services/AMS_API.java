@@ -1,26 +1,21 @@
-package com.huynd.astrochannels.services;
+package vn.dongtrieu.astrochannels.services;
 
-import com.huynd.astrochannels.models.GetChannelListResponse;
-import com.huynd.astrochannels.models.GetEventsResponse;
-
-import retrofit2.Call;
+import io.reactivex.Observable;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
+import vn.dongtrieu.astrochannels.models.GetChannelListResponse;
+import vn.dongtrieu.astrochannels.models.GetEventsResponse;
 
-import static com.huynd.astrochannels.utils.Constants.API_REQUEST_PARAMS_CHANNEL_ID;
-import static com.huynd.astrochannels.utils.Constants.API_REQUEST_PARAMS_PERIOD_END;
-import static com.huynd.astrochannels.utils.Constants.API_REQUEST_PARAMS_PERIOD_START;
-
-/**
- * Created by HuyND on 9/18/2017.
- */
+import static vn.dongtrieu.astrochannels.base.Const.API_REQUEST_PARAMS_CHANNEL_ID;
+import static vn.dongtrieu.astrochannels.base.Const.API_REQUEST_PARAMS_PERIOD_END;
+import static vn.dongtrieu.astrochannels.base.Const.API_REQUEST_PARAMS_PERIOD_START;
 
 public interface AMS_API {
     @GET("ams/v3/getChannels")
-    Call<GetChannelListResponse> getChannelList();
+    Observable<GetChannelListResponse> getChannelList();
 
     @GET("ams/v3/getEvents")
-    Call<GetEventsResponse> getEvents(
+    Observable<GetEventsResponse> getEvents(
             @Query(API_REQUEST_PARAMS_CHANNEL_ID) int[] channelIds,
             @Query(API_REQUEST_PARAMS_PERIOD_START) String periodStart,
             @Query(API_REQUEST_PARAMS_PERIOD_END) String periodEnd);

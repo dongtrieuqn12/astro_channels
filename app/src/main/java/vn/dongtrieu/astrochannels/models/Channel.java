@@ -1,6 +1,5 @@
-package com.huynd.astrochannels.models;
+package vn.dongtrieu.astrochannels.models;
 
-import com.google.firebase.database.Exclude;
 import com.google.gson.annotations.SerializedName;
 
 /**

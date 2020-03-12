@@ -1,40 +1,34 @@
-package com.huynd.astrochannels.utils;
+package vn.dongtrieu.astrochannels.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.google.gson.Gson;
-import com.huynd.astrochannels.models.Channel;
 
 import java.util.List;
 
-import static com.huynd.astrochannels.utils.ArrayUtils.arrayToList;
+import vn.dongtrieu.astrochannels.models.Channel;
 
-/**
- * Created by HuyND on 9/19/2017.
- */
+import static vn.dongtrieu.astrochannels.utils.ArrayUtils.arrayToList;
 
 public class PreferencesUtils {
     private static final String KEY_FAVOURITE_CHANNEL = "astroFavouriteChannel";
 
     private static PreferencesUtils mInstance;
     private SharedPreferences mSharedPreferences;
-    private Context mContext;
 
     private PreferencesUtils(Context context) {
-        mContext = context;
         mSharedPreferences = PreferenceManager
-                .getDefaultSharedPreferences(mContext);
+                .getDefaultSharedPreferences(context);
     }
 
-    public static void initInstance(Context context) {
-        if (mInstance == null) {
-            mInstance = new PreferencesUtils(context);
+    public static PreferencesUtils getInstance(Context context) {
+        synchronized (PreferencesUtils.class) {
+            if (mInstance == null) {
+                mInstance = new PreferencesUtils(context);
+            }
         }
-    }
-
-    public static PreferencesUtils getInstance() {
         return mInstance;
     }
 

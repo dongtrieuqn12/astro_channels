@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:924464983537:android:79212ee148a32421346850",
+        "mobilesdk_app_id": "1:924464983537:android:6b756be6600f12b1346850",
         "android_client_info": {
-          "package_name": "vn.dongtrieu"
+          "package_name": "vn.dongtrieu.astrochannels"
         }
       },
       "oauth_client": [

@@ -2,4 +2,25 @@
     <string name="app_name">Astro Channels</string>
     <string name="facebook_app_id">848958518906815</string>
     <string name="fb_login_protocol_scheme">fb848958518906815</string>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+    <string name="btn_channels_text">CHANNELS</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="text_view_channel_number_place_holder">100</string>
+    <string name="text_view_channel_name_place_holder">ABC</string>
+    <string name="text_view_channel_number_label">CH</string>
+    <string name="no_favourite_channels_message">There is no favourite channel!</string>
+    <string name="now">NOW</string>
+    <string name="loading_string">Loading</string>
+    <string name="ok">OK</string>
+    <string name="unexpected_error_message">Unexpected Error</string>
+    <string name="error">Error</string>
+
+    <string name="login_with_facebook">Login with facebook:</string>
+    <string name="login_message">Login to use cloud storage.</string>
+    <string name="login_error_message">Error occurs while logging in</string>
+    <string name="permission_email">email</string>
+    <string name="permission_public_profile">public_profile</string>
 </resources>
