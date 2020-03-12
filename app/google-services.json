@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "924464983537",
+    "firebase_url": "https://astrochannels-baa69.firebaseio.com",
+    "project_id": "astrochannels-baa69",
+    "storage_bucket": "astrochannels-baa69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924464983537:android:79212ee148a32421346850",
+        "android_client_info": {
+          "package_name": "vn.dongtrieu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924464983537-r9b1mcg8tq9msa405mb1abkm9gpd8brm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1H0pXjqlLTP6gTT-HJzyhhOE0OSvi5RY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924464983537-r9b1mcg8tq9msa405mb1abkm9gpd8brm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
